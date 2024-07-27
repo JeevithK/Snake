@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    margin:0;
+    font-family: poppins;
+    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+button {
+    padding:15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: #3087e5;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.wholehistory
+{
+    margin: 30px;
+}
+.row1
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(68, 170, 248);
+    margin-top:10px ;
+    width: 400px;
+    border-radius: 15px;
+}
+h2{
+    margin: 30px;
+}
+.score
+{
+    background-color: rgb(228, 203, 104);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+    margin-right:50px ;
+    margin-left: 10px;
+}
+
+.number
+{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right:50px ;
+    margin-left: 10px;
+}
+.numberhigh
+{
+    background-color: rgb(168, 174, 199);
+    padding: 5px;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right:50px ;
+    margin-left: 10px;
+}
+.high{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(203, 192, 49, 0.803);
+    margin-top:10px ;
+    width: 400px;
+    border-radius: 15px;
+    border-style: double;
+    border-color: #0d529b;
+}
+.scorehigh
+{
+    background-color: rgb(228, 118, 104);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+    margin-right:50px ;
+    margin-left: 10px;
+}

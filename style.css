@@ -1,0 +1,39 @@
+*
+{
+    margin:0;
+    font-family: poppins;
+    background-color: aliceblue;
+    text-align: center;
+
+}
+
+#gameboard
+{
+
+    margin-top: 20px;
+    /* background-color: deepskyblue; */
+    border-width: 5px;
+    border-color: cornflowerblue;
+    border-style: double;
+    border-radius: 10px;
+}
+#score
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button
+{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(161, 205, 244);
+    padding: 15px;
+    font-weight: bold;
+}
+#msg
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
